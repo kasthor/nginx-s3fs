@@ -11,4 +11,6 @@ WORKDIR /
 
 EXPOSE 80
 
+STOPSIGNAL SIGTERM
+
 ENTRYPOINT ["./entrypoint.sh"]
