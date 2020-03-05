@@ -9,4 +9,6 @@ COPY default.conf /etc/nginx/conf.d
 RUN chmod a+x /entrypoint.sh
 WORKDIR /
 
+EXPOSE 80
+
 ENTRYPOINT ["./entrypoint.sh"]
